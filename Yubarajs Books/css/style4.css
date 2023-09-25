@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation bar design */
+#Navbar{
+    display: flex;
+    align-items: center;
+}
+/* logo and Image */
+
+
+
+
+/* logo styling */
+#Navbar ul{
+    display: flex;
+}
+#Navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   z-index: -1;
+    opacity: 100%;
+}
+#Navbar{
+    position: relative;
+}
+#Navbar ul li{
+     
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Navbar ul li a{
+    display: block;
+    padding:3px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    color : rgb(255, 255, 255); 
+}
+#Navbar ul li a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+#Research::before{
+    content: "";
+    position: absolute;
+    background: url('../images/bg4.jpg');
+    height: 500%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+    
+}
+.Heading h1{
+    text-align: center;
+    margin-top: -350px;
+    font-size: 2.5rem; 
+    text-shadow:  2px 2px white
+
+}
+.Heading p{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-decoration: underline palevioletred;
+}
+.pic1 {
+    margin-top: 170px;
+    margin-left: 40px;
+}
+.pic2 {
+    margin-left: 40px;
+    margin-top: 110px;
+}
+.pic3{
+    margin-left: 40px;
+    margin-top: 110px;
+}
+.pic4 {
+    margin-top: 110px;
+    margin-left: 40px;
+}
+.text1 h1{
+    margin-left: 33%;
+    position: absolute;
+    top: 559px;
+    text-decoration: none;
+
+}
+.text2 h1{
+    margin-left: 34%;
+    position: absolute;
+    top: 980px;
+    text-decoration: none;
+}
+.text3 h1{
+    margin-left: 34%;
+    position: absolute;
+    top: 1290px;
+    text-decoration: none;
+}
+.text4 h1{
+    margin-left: 34%;
+    position: absolute;
+    top: 1600px;
+}
+h1:hover{
+    color: white;
+}
+.text1 p{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 650px;;
+    left: 34%;
+    right: 20%;
+}    
+.text2 p{
+    font-size: 1.8rem;
+    position: absolute;
+    right: 20%;
+    left: 34%;
+    top: 1090px;
+}
+.text3 p{
+    font-size: 1.8rem;
+    position: absolute;
+    right: 20%;
+    left: 34%;
+    top: 1390px;
+}
+.text4 p{
+    font-size: 1.8rem;
+    position: absolute;
+    right: 20%;
+    left: 34%;
+    top: 1690px;
+}
+.firstbook button{
+    width: 10px;
+}

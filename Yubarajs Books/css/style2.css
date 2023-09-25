@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation bar design */
+#Navbar{
+    display: flex;
+    align-items: center;
+}
+/* logo and Image */
+
+
+
+
+/* logo styling */
+#Navbar ul{
+    display: flex;
+}
+#Navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   z-index: -1;
+    opacity: 100%;
+}
+#Navbar{
+    position: relative;
+}
+#Navbar ul li{
+     
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Navbar ul li a{
+    display: block;
+    padding:3px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    color : rgb(255, 255, 255); 
+}
+#Navbar ul li a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+#Products::before{
+    content: "";
+    position: absolute;
+    background: url('../images/bg2.jpg');
+    height: 380%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+    
+}
+/* DESIGNING FOR TEXT OF FIRST BOOK */
+
+.firstbook h1{
+    text-align: center;
+    position: relative;bottom: 360px;
+    color: rgb(7, 45, 43);
+    text-shadow: 1px 2px rgb(211, 88, 88);
+}
+.firstbook h2{
+position: absolute;left: 270px;bottom: 470px;
+
+}
+.firstbook p{
+    position: absolute;top:100px; left: 40px;
+    font-size: 1.4rem;
+}
+.firstbook span{
+    text-decoration: underline ;
+     text-decoration-color: black;
+     font-size: 1.5rem;
+     position: absolute;left: 40px;
+}
+
+/*Designing for text of second book */
+
+.secondbook h1{
+    position: absolute; left: 270px; bottom: 50px;
+    font-size: 1.6rem;
+}
+.secondbook p{
+    font-size: 1.5rem;
+    position: absolute; left : 40px;bottom: -380px;
+}
+.secondbook span{
+    text-decoration: underline black;
+    
+}
+
+/* Designing text for third book */
+
+.thirdbook h1{
+    position: absolute; left: 270px; bottom: -580px;
+    font-size: 1.6rem;
+}
+.thirdbook p{
+    position: absolute;left: 40px; bottom: -245px; ;
+    font-size: 1.5rem;
+
+}
+
+/* Designing for books images */
+.box{
+    position: absolute;left: 30px; top: 190px;
+}
+
+.box2{
+    position: absolute; left: 30px; top: 650px;
+}
+
+.box3{
+    position: absolute; left: 30px; top: 1250px;
+}
+.firstbook button{
+     width: 80PX;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(106, 204, 204);
+    border-radius: 10px;
+    position: absolute;
+    left: 75px;
+    
+
+}
+.firstbook button:hover{
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+.secondbook button{
+
+    width: 80PX;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(106, 204, 204);
+    border-radius: 10px;
+    position: absolute;
+    left: 75px;
+    top: 975px;
+    
+}
+.secondbook button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.thirdbook button{
+    width: 80PX;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(106, 204, 204);
+    border-radius: 10px;
+    position: absolute;
+    left: 75px;
+    top: 1570px;
+}
+.thirdbook button:hover{
+    background-color: white;
+    cursor: pointer;
+
+}

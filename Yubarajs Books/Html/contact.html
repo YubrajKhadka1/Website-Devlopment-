@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book Store">
+    <meta name="keywords" content="Book, Shooping, Store">
+    <title>Contact Us</title>
+    <!-- linking External Css -->
+    <link rel="stylesheet" href="css/style5.css">
+    
+    <!-- Linking Java Script -->
+    <script src="JS/scripts.js"></script>  
+</head>
+
+<body>
+    <nav id="Navbar">
+        <div id="logo" style="margin: 6px 15px;">
+
+            <!-- Using inline css on the Logo directly -->
+
+           <img src="images/logo.png" alt="" style="height: 35px; margin:5px 1px; ">
+        </div>
+        <!-- Creating Nav Bar -->
+         <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="Products.html">Products</a></li>
+            <li class="item"><a href="blog.html">Blog</a ></li>
+            <li class="item"><a href="research.html">Reasearch</a></li>
+            <li class="item"><a href="contact.html">Contact Us</a> </li>
+         </ul>
+
+    </nav>
+
+<body>
+    
+    <div class="wrapper">
+        <h2>Contact Us</h2>
+        <div id="error_message"></div>
+
+        <!-- Creating Forms -->
+
+        <form id="my_form" onsubmit="return validation()">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            
+            <div class="input_field">
+                <input type="text" placeholder="Subject" id="subject">
+            </div>
+
+            <div class="input_field">
+                <input type="text" placeholder="Phone No" id="phone">
+            </div>
+
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+
+            <div class="input_field">
+                <textarea  id="message" placeholder="Message" > </textarea>
+            </div>
+            <div class="button">
+                <input type="Submit">
+            </div>
+
+
+
+        </form>
+    </div>
+</body>
+</html>
